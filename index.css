@@ -1,0 +1,43 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+div#container {
+    margin: 0 auto;
+    max-width: 40em;
+    padding: 1em 1.5em 1.3em 1.5em;
+}
+
+div {
+    display: block;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    font-weight: 500;
+    margin: 0 0 0.8em 0;
+    padding: 0 0 0.3em 0.5em;
+}
+
+button {
+    background-color: #d84a38;
+    margin: 0 3px 10px 0;
+    width: 99px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 0.5em 0.7em 0.6em 0.7em;
+}
+
+a#link-github {
+    display: block;
+    margin: 1.3em 0 0 0;
+    border-top: 1px solid #ccc;
+    padding: 1em 0 0 0.5em;
+}
+
+a {
+    color: #6fa8dc;
+    font-weight: 300;
+    text-decoration: none;
+}
