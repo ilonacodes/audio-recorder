@@ -12,6 +12,7 @@ navigator.mediaDevices.getUserMedia({audio: true})
         record.ondataavailable = e => {
             audioChunks.push(e.data);
             if (record.state === "inactive") {
+
                 // A Blob object represents a file-like object of immutable, raw data,
                 // that isn't necessarily in a JavaScript-native format
                 let blob = new Blob(audioChunks, {type: 'audio/x-mpeg-3'});
